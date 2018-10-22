@@ -1,4 +1,4 @@
 TestWL
 ======
 
-my firts git place for practicing, in the future, I will bring more useful code, thanks everybody
+my first git place for practise, I will bring more useful code in future, thanks.
