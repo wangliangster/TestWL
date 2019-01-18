@@ -1,0 +1,169 @@
+%!TEX TS-program = xelatex
+\documentclass[letterpaper,10pt]{Resume_Liang}
+
+%set line space for Chinese and English share
+\usepackage[nodisplayskipstretch]{setspace} % In my case
+\setstretch{0.9} % 1.5/1.2 = 1.25
+\usepackage{caption}
+\captionsetup{font={stretch=\setstretch}}
+
+\begin{document}
+\thispagestyle{empty}
+\header{Wang}{ Liang} {programmer + machine learning + mathematics}
+% In the aside, each new line forces a line break
+\begin{aside}
+  \section{contact}
+    (+86)13810716443\\
+    \href{mailto:mathmad@163.com}{mathmad@163.com}\\
+    \href{mailto:wangliangster@gmail.com}{wangliang@gmail.com}\\
+    \href{https://github.com/wangliangster}{github://wangliangster}\\
+    DaXing, Beijing, CN\\
+   \vspace{\baselineskip}
+  \section{languages}
+    Python\\
+    \smallitem{+ numpy/scipy/pandas}\\
+    \smallitem{+ scikit-learn}\\
+    \smallitem{+ jieba/ltp}\\
+    \smallitem{+ gensim/word2vec}\\
+    \smallitem{+ matplotlib}\\
+    \smallitem{+ PyCharm}\\
+    \smallitem{+ IPython}\\
+    C/C++\\
+    \smallitem{+ makefile/imake}\\
+    \smallitem{+ Serial port, CAN port}\\
+    \smallitem{+ CORBA(TAO)}\\
+    Jupyter notebook\\
+    JSON\\
+    Tk/Tcl\\
+    Perl\\
+    Qt\\
+    C\#\\
+    SQL\\
+    regex(pressions)?\\
+    \LaTeX \\
+   \vspace{\baselineskip}
+  \section{computing}
+   Linux\\
+   \smallitem{Redhat/CentOS}\\
+   \smallitem{+ rpmbuild}\\
+   \smallitem{+ sed/awk/grep/vi}\\
+   \smallitem{Ubuntu/Gento}\\
+   \smallitem{+ SystemRescueCd}\\
+   \smallitem{+ grub}\\
+   \smallitem{+ minicom/vnc/ftp/ssh}\\
+   Mac OS\\
+   \smallitem{+ Anaconda}\\
+   Common\\
+   \smallitem{+ jekins}\\
+   \smallitem{+ git}\\
+   \smallitem{+ svn}\\
+   \smallitem{+ clearcase}\\
+   \vspace{\baselineskip}
+\section{interests}
+  text analysis\\
+  \smallitem{+ entity resolution}\\
+  \smallitem{+ distributional semantics}\\
+  unsupervised learning\\
+  \smallitem{+ clustering algorithms}\\
+  \smallitem{+ dimensionality reduction}\\
+   harmonic analysis\\
+  \smallitem{+Fourier transfer}\\
+  \smallitem{+Wavelet analysis}\\
+  Riemann Hypothesis\\
+\end{aside}
+
+\begin{body}
+\section{Experience}
+\begin{entrylist}
+  \entry
+    {10/2018-now}
+    {Artificial-Intelligence-for-NLP China Team}
+    {AI Programmer}
+    {\href{https://github.com/wangliangster/TestWL/blob/master/ViewPointExtract.ipynb}{News view point extractor}, \href{https://github.com/wangliangster/NLP-Course/blob/master/BeijingSubway.ipynb}{Beijing subway transfer search}, DFS/BFS graph search, TF-IDF, Deep Learning Algorithm and \href{https://github.com/wangliangster/TestWL/blob/master/wordcloudLiang.ipynb}{wordcloud} produce }	
+  \entry
+    {5/2013-10/2018}
+    {GE Healthcare}
+    {Lead Software Engineer}
+    {Image Quality process and Auto Test tool  CI/OEM develop leader, \href{https://www.gehealthcare.com/en/products/radiography/fixed-rad-systems/discovery-xr656-hd-x-ray-system-powered-by-helix}{Discovery XR656 HD}, \href{https://www.gehealthcare.com/en/products/radiography/fixed-rad-systems/optima-xr646-hd-x-ray-system-powered-by-helix}{Optima XR646 HD}, \href{https://www.gehealthcare.com/en/products/radiography/fixed-rad-systems/discovery-xr656-plus}{Discovery XR656 plus}, \href{https://www.gehealthcare.com/en/products/radiography/fixed-rad-systems/optima-xr646}{Optima XR646} Fixed Radiography Systems Lead Software Integrator, Platform of X-Ray Exposure control system developer, Offline software tools such as Ghost, Linux System-Rescue, ISO build and CD burn strong contributor}
+  \entry
+    {4/2011-5/2013}
+    {China Nuclear Control Systems Engineering Co., Ltd}
+    {Senior Software Engineer}
+    {Nicsys1000 system developer, design various HMI with QT for Nuclear Power Plant DCS(Distributed real-time control system), build SVN server for team, bring team member to QT conference for new technology deep dive }
+  \entry
+    {6/2010-3/2011}
+    {Carestream Healthcare}
+    {Software Intern}
+    {Carestream X-Ray System DR V5 build for cells setup, and report bug with Bugzilla}
+\end{entrylist}
+
+
+\section{Education}
+\begin{entrylist}
+  \entry
+    {2008-2011}
+    {M.A., Computer Science}
+    {ShangHai University}
+    {Graduate course sequences in Combinatorics/Graph Theory, Probability, plus Computer Engineering }
+  \entry
+    {2003-2007}
+    {B.S., Mathematics}
+    {JXUFE}
+    {Pure mathematics concentration. Courses in Analysis, Algebra, Combinatorics, Probability}
+\end{entrylist}
+
+
+\section{Projects}
+\begin{entrylist}
+  \projectentry
+    {10/2018-now}
+    {\href{https://github.com/wangliangster/TestWL/blob/master/ViewPointExtract.ipynb}{News view point extractor}}
+    {NLP Project}
+    {Use word2vec and TF-IDF, probability Algorithms, this project aims to for any input News text, extract the main view point of each speaker, present it as format "who said what" }
+  \projectentry
+    {11/2018-12/2018}
+    {\href{https://github.com/wangliangster/NLP-Course/blob/master/BeijingSubway.ipynb}{Beijing subway transfer search}}
+    {Hobby Graph Search Project}
+    {Use BFS/DFS/A* Algorithms, demo a Graph search solution, land on Beijing Subway transfer search}
+    \projectentry
+    {3/2017-5/2018}
+    {Reli}
+    {GE Project}
+    {Reliability is an auto test tool for GE products internal CI, developed with python, tk/tcl, shell scripts, ssh, minicom etc skills under Linux, involved random algorithm testing instead of old tool which use fixed steps method record by VNC, improve coverage rate greatly, own high reputation }
+     \projectentry
+    {10/2013-9/2017}
+    {\href{https://www.gehealthcare.com/en/products/radiography/fixed-rad-systems}{Everest G1/G2/G3}}
+    {GE Project}
+    {Everest G1/G2/G3 are a sequences Radiography of GE Family products developed by global team, as a Lead Software Integrator along with it all the way }
+     \projectentry
+    {5/2013-10/2013}
+    {Calypso}
+    {GE Project}
+    {Calypso is a Platform of exposure control system which used for GE Fixed X-Ray products under Linux}
+\end{entrylist}
+
+\section{Miscellaneous}
+\begin{entrylist}
+   \otherentry
+   {2018}
+   {\href{https://auth.geeksforgeeks.org/user/\%E7\%8E\%8B\%E8\%89\%AF/practice/}{Rank in Institute \#1}}
+   {GeeksforGeeks}
+    \otherentry
+    {2017}
+    {BUILDING ESSENTIAL LEADERSHIP SKILLS (BELS) }
+    {Crotonville Leadership}
+     \otherentry
+    {2016}
+    {\href{https://github.com/wangliangster/TestWL/blob/master/Fouries\%20Transfer\%20Notes3.pdf}{Fourier series deep explanation }}
+    {Internal Seminar }
+     %\otherentry
+    %{2015}
+   % {PRESENTATION SKILLS AT GE}
+    %{Crotonville Leadership}
+    \otherentry
+    {2010}
+    {\href{https://ieeexplore.ieee.org/document/5564214}{A new solution of node splitting to the R Tree algorithm}}
+    {IEEE Paper}
+\end{entrylist}
+\end{body}
+\end{document}
